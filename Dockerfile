@@ -19,7 +19,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 
-RUN apk update && apk add --no-cache apk add --no-cache git bash go dep && rm -rf /var/cache/apk/*
+RUN apk update && apk add --no-cache git bash go dep && rm -rf /var/cache/apk/*
 
 RUN mkdir -p /github/actions && \
     cd /github/actions && \
