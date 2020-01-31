@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: Sending Wechat Work Message
-      uses: x-actions/wechat-work@master
+      uses: x-actions/wechat-work@release/v1
       env:
         WECHAT_WEBHOOK_KEY: ${{ secrets.WECHAT_WEBHOOK_KEY }}
         MSGTYPE: text
