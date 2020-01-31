@@ -16,7 +16,7 @@ Github Action for Sending Wechat Wrok robot messages.
       env:
         WECHAT_WEBHOOK_KEY: ${{ secrets.WECHAT_WEBHOOK_KEY }}
         MSGTYPE: markdown
-        TEXT: |
+        CONTENT: |
           # Wechat Work Noti
           > ^_^
 ```
