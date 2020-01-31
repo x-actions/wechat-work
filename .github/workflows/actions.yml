@@ -14,5 +14,5 @@ jobs:
       uses: x-actions/wechat-work@master
       env:
         WECHAT_WEBHOOK_KEY: ${{ secrets.WECHAT_WEBHOOK_KEY }}
-        MSGTYPE: test
+        MSGTYPE: text
         CONTENT: x-actions/wechat-work build success.

@@ -25,6 +25,7 @@ RUN mkdir -p /github/actions && \
     cd /github/actions && \
     git clone https://github.com/x-actions/wechat-work.git && \
     cd wechat-work && \
+    git checkout release/v1 && \
     export GOPATH=`pwd` && \
     cd src/wechat_work && \
     dep ensure && \
